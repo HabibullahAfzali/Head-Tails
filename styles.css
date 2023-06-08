@@ -1,0 +1,55 @@
+#coin.heads {
+  background-image: url("/coins/head1.jpg");
+}
+
+#coin.tails {
+  background-image: url("/coins/tail1.jpg");
+}
+body {
+  text-align: center;
+  font: 1em sans-serif;
+  background-color: aquamarine;
+}
+
+h1 {
+  margin-top: 30px;
+}
+
+#coin {
+  width: 200px;
+  height: 200px;
+  background-color: #f2ed5b;
+  border-radius: 50%;
+  margin: 30px auto;
+  transition: transform 1.5s;
+}
+
+button {
+  font: 1em sans-serif;
+  margin-bottom: 30px;
+}
+
+#scoreboard {
+  margin-top: 20px;
+}
+
+#scoreboard div {
+  margin-bottom: 10px;
+}
+
+#counters {
+  margin-top: 30px;
+}
+
+#counters div {
+  margin-bottom: 10px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
